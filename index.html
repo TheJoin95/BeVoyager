@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" class="js canvas webgl no-touch rgba textshadow opacity cssgradients csstransforms csstransforms3d csstransitions video skrollr skrollr-desktop html-loaded" style="overflow: visible;"><!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<div itemscope itemtype="http://schema.org/Organization">
+	<title itemprop="name">BeVoyager - Esplora. Organizza. Viaggia.</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Core Meta Data -->
+	<meta name="author" content="BeVoyager">
+	<meta name="description" content="Viaggiare è sempre stata una delle attività più seguite ed amate al mondo. BeVoyager è una piattaforma che aiuta nella creazione di itinerari, in modo da aiutarti ad organizzare per bene il tuo viaggio.">
+	<meta name="keywords" content="bevoyager, viaggiare, condividere, organizzare viaggio, itinerari">
+	<link rel="canonical" href="http://www.bevoyager.com/"/>
+	<meta property="og:title" content="BeVoyager" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://www.bevoyager.it/" />
+	<meta property="og:site_name" content="BeVoyager" />
+	<meta itemprop="logo" property="og:image" content="http://bevoyager.it/images/logo.png"/>
+	<meta property="og:description" content="BeVoyager - Time to make a Journey around the world!">
+	<meta property="fb:app_id" content="" />
+
+	<meta name="twitter:widgets:csp" content="on">
+	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:site" content="https://twitter.com/BeVoyager"/>
+	<meta itemprop="url" name="twitter:domain" content="http://www.bevoyager.it"/>
+	<meta name="twitter:title" content="BeVoyager"/>
+	<meta name="twitter:description" content=""/>
+	<meta name="twitter:image:src" content="http://bevoyager.it/images/logo.png"/>
+	</div>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+
+	<!-- Apple Touch Icons -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="#">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="#">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./images/favicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="#">
+
+	<meta name="theme-color" content="#2B79A1" />
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Styles -->
+	<!-- <link rel="stylesheet" type="text/css" href="./resources/font/font-awesome/css/font-awesome.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="./resources/css/loader.css">
+	<link rel="stylesheet" type="text/css" href="./resources/css/framework.css">
+	<link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/ie.css" />
+	<![endif]-->
+
+	<!-- Javascript -->
+	<script src="./resources/js/modernizr.js"></script>
+	<script src="./resources/js/jquery.js"></script>
+</head>
+<body itemscope itemtype="http://schema.org/WebPage">
+	
+    <ul class="block-menu">
+		<li>
+			<a title="Back to Top" href="#hero" class="three-d">
+			Home
+				<span aria-hidden="true" class="three-d-box">
+					<span class="front">Home</span>
+					<span class="back">Home</span>
+				</span>
+			</a>
+		</li>
+		<li>
+			<a title="Crea" href="#crea" class="three-d">
+			Crea
+				<span aria-hidden="true" class="three-d-box">
+					<span class="front">Crea</span>
+					<span class="back">Crea</span>
+				</span>
+			</a>
+		</li>
+		<li>
+			<a title="Condividi" href="#condividi" class="three-d">
+			Condividi
+				<span aria-hidden="true" class="three-d-box">
+					<span class="front">Condividi</span>
+					<span class="back">Condividi</span>
+				</span>
+			</a>
+		</li>
+		<li>
+			<a titlte="Organizza" href="#organizza" class="three-d">
+			Organizza
+				<span aria-hidden="true" class="three-d-box">
+					<span class="front">Organizza</span>
+					<span class="back">Organizza</span>
+				</span>
+			</a>
+		</li>
+		<li>
+			<a title="Viaggia" href="#viaggia" class="three-d">
+			Viaggia
+				<span aria-hidden="true" class="three-d-box">
+					<span class="front">Viaggia</span>
+					<span class="back">Viaggia</span>
+				</span>
+			</a>
+		</li>
+		<li>
+			<a title="Iscriviti" href="#iscriviti" class="three-d">
+			Iscriviti
+				<span aria-hidden="true" class="three-d-box">
+					<span class="front">Iscriviti</span>
+					<span class="back">Iscriviti</span>
+				</span>
+			</a>
+		</li>
+	</ul>
+	<section id="hero" style="height: 757px;">
+		<ul id="scene" class="scene" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+			<li class="layer" data-depth="0.00" style="position: relative; display: block; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"></li>
+
+			<!-- BG -->
+			<li class="layer" data-depth="0.10" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-12.0487px, -3.6209px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="background skrollable skrollable-between" data-0="transform: translate3d(0px, 0px, 0px);" data-top-bottom="transform: translate3d(0px, 300%, 0px);" style="transform: translate3d(0px, 0px, 0px);"></div></li>
+			<li class="layer" data-depth="0.15" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-18.073px, -5.43135px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="triangles"></div></li>
+			<li class="layer" data-depth="0.25" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-30.1217px, -9.05225px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="sphere skrollable skrollable-between" data-0="opacity: 1;" data-top-bottom="opacity: 0;" style="margin-top: 212.5px; opacity: 1;"><img src="./images/sphere.png" alt="sphere"></div></li>
+			
+			<!-- Hero -->
+			<li class="layer" data-depth="0.20" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-24.0974px, -7.2418px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="title skrollable skrollable-between" data-0="opacity: 1;" data-top-bottom="opacity: 0;" style="opacity: 1;"><!-- <img class="has-retina" src="./resources/logo.png" alt="Opia"> <span class="line"></span>--></div></li>
+			<li class="layer" data-depth="0.30" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-36.1461px, -10.8627px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+				<div class="hero-content skrollable skrollable-between" data-0="opacity: 1;" data-top-bottom="opacity: 0;" style="margin-top: 317.5px; opacity: 1;">
+					<img src="./images/logo.png" alt="BeVoyager"/>
+					<h1>È tempo di viaggiare!</h1>
+					<p class="sub-title">Stiamo ancora lavorando al sito.</p>
+				</div>
+			</li>
+
+			<!-- Flakes -->
+			<li class="layer" data-depth="0.40" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-48.1948px, -14.4836px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+				<div class="depth-1 flake1 skrollable skrollable-between" data-0="opacity: 1;" data-top-bottom="opacity: 0;" style="opacity: 1;"><img src="./images/flakes1.png" alt="flake"></div>
+				<div class="depth-1 flake2 skrollable skrollable-between" data-0="opacity: 1;" data-top-bottom="opacity: 0;" style="opacity: 1;"><img src="./images/flakes2.png" alt="flake"></div>
+				<div class="depth-1 flake3 skrollable skrollable-between" data-0="opacity: 1;" data-top-bottom="opacity: 0;" style="opacity: 1;"><img src="./images/flakes3.png" alt="flake"></div>
+				<div class="depth-1 flake4 skrollable skrollable-between" data-0="opacity: 1;" data-top-bottom="opacity: 0;" style="opacity: 1;"><img src="./images/flakes4.png" alt="flake"></div>
+			</li>
+			<li class="layer" data-depth="0.50" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-60.2435px, -18.1045px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+				<div class="depth-2 flake1 skrollable skrollable-between" data-0="opacity: 1;" data-top-bottom="opacity: 0;" style="opacity: 1;"><img src="./images/flakes1(1).png" alt="flake"></div>
+				<div class="depth-2 flake2 skrollable skrollable-between" data-0="opacity: 1;" data-top-bottom="opacity: 0;" style=""><img src="./images/flakes2(1).png" alt="flake"></div>
+			</li>
+			<li class="layer" data-depth="0.60" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-72.2922px, -21.7254px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+				<div class="depth-3 flake1 skrollable skrollable-between" data-0="opacity: 1;" data-top-bottom="opacity: 0;" style="opacity: 1;"><img src="./images/flakes1(2).png" alt="flake"></div>
+				<div class="depth-3 flake2 skrollable skrollable-between" data-0="opacity: 1;" data-top-bottom="opacity: 0;" style="opacity: 1;"><img src="./images/flakes2(2).png" alt="flake"></div>
+				<div class="depth-3 flake3 skrollable skrollable-between" data-0="opacity: 1;" data-top-bottom="opacity: 0;" style="opacity: 1;"><img src="./images/flakes3(1).png" alt="flake"></div>
+				<div class="depth-3 flake4 skrollable skrollable-between" data-0="opacity: 1;" data-top-bottom="opacity: 0;" style="opacity: 1;"><img src="./images/flakes4(1).png" alt="flake"></div>
+			</li>
+			<li class="layer" data-depth="0.80" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-96.3896px, -28.9672px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="depth-4 skrollable skrollable-between" data-0="opacity: 1;" data-top-bottom="opacity: 0;" style="opacity: 1;"><img src="./images/flakes.png" alt="flake"></div></li>
+			<li class="layer" data-depth="1.00" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-120.487px, -36.209px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="depth-5 skrollable skrollable-between" data-0="opacity: 1;" data-top-bottom="opacity: 0;" style="opacity: 1;"><img src="./images/flakes_1.png" alt="flake"></div></li>
+		</ul>
+		<a id="action" href="#bevoyager"></a>
+	</section>
+
+	<section id="bevoyager" class="container center padded dynamicHeight">
+
+		<div class="row section-content">
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+				<h3>Inizia ad esplorare il mondo!</h3>
+				<span class="line"></span>
+				<h2>Trova altri viaggiatori. Organizza e condividi un itinerario. Consulta le migliore offerte e... Parti!</h2>
+				<p>Incontra altre persone che vorrebbero intaprendere lo stesso tuo tragitto! In treno, in macchina, in volo, in moto, in bici... a piedi! Consulta le migliori offerte per il viaggio: cosa visitare, dove mangiare, dove alloggiare e come arrivare!</p>
+
+			</div>
+		</div>
+
+	</section>
+
+	<section id="crea" class="full padded center dynamicHeight">
+		<div class="row section-content">
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+					<h2 style="color: #fff">Crea</h2>
+					<p>Prima di andare in un qualsiasi luogo nel mondo, bisogna prima conoscerlo. Creare un itinerario che possa soddisfare le più disparate esigenze è il primo passo per affrontare un'avventura. Tramite il nostro sistema di creazione itinerario, avrai a tua disposizione tutti gli strumenti, l'esperienza e guide di cui hai bisogno, con recensioni, idee ed esperienze di altri utenti che già hanno affrontato un viaggio nella destinazione scelta.
+					</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="condividi" class="container padded-bottom center-mobile relative list">
+		<!-- Blocks -->
+		<div class="row">
+			<div class="block col-xs-12 col-sm-5">
+				<h3>Esplora. Pianifica. Prenota!</h3>
+				<p>Consulta contemporaneamente più offerte per trovare un alloggio tramite Booking e AirBnB! Leggi una guida completa sul luogo da visitare: i migliori ristoranti, i posti da visitare...</p>
+			</div>
+			<div class="block col-xs-12 col-sm-5 col-sm-offset-2">
+				<h3>Viaggia! Non importa come!</h3>
+				<p>Puoi pianifare il tuo viaggio con qualsiasi mezzo! Bici, macchina, treno! Potrai consultare offerte per InterRail, Voli, Treni internazionali e ottenre il miglior itinerario al minor prezzo possibile!</p>
+			</div>
+		</div>
+
+		<span class="separator"></span>
+
+		<!-- Blocks -->
+		<div class="row">
+			<div class="block col-xs-12 col-sm-5">
+				<h3>Feedback & Community</h3>
+				<p>Dopo aver concluso una tappa del tuo viaggio, potrai recensire il luogo, gli utenti con i quali hai condiviso il viaggio, i ristoranti e i posti visitati! Potrai recensire includendo foto e video! Organizza sempre più viaggi con gli altri utenti del sito!</p>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-sm-offset-2">	
+				<h3>Cosa visitare?</h3>
+				<p>BeVoyager sa sempre cosa fare! Migliorerà la tua esperienza utente in base ai tuoi interessi. Sei un fotografo e sei nel Nord Europa? Cosa aspetti a scattare una foto dell'aurora boreale?! Parlaci di te, ti aiuteremo ad organizzare il tuo viaggio!</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="organizza" class="full padded-top center dark" style="background-image: url(images/dark-image.jpg);">
+		<div class="container">
+
+			<!-- Intro -->
+			<div class="row">
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+					<h3>Sogna. Realizza. Condividi.</h3>
+					<span class="line"></span>
+					<h2>Se puoi sognarlo, DEVI farlo!</h2>
+					<p style="color: #fff">Organizza itinerari insieme ad altri utenti o invita i tuoi amici tramite i social! Potrai conoscere persone da tutto il mondo e viaggiare insieme a loro! Scegliete le destinazioni, l'alloggio, il passaggio e... partite!</p>
+				</div>
+			</div>
+
+			<!-- Folio pt.1 -->
+			<div class="row">
+				<div class="col-xs-12 padded-top">
+					<ul class="folio-list">
+						<li><a class ="lightbox" href="images/pic_1.jpg" title="ghiacciai" width="750px" height ="747px"><img src="images/pic_1.jpg" alt="thumbnail"></a></li>
+						<li><a class ="lightbox" href="images/pic_2.jpg" title="strada aperta" width="540px" height ="540px"><img src="images/pic_2.jpg" alt="thumbnail"></a></li>
+						<li><a class ="lightbox" href="images/pic_3.jpg" title="ponte" width="540px" height ="765px"><img src="images/pic_3.jpg" alt="thumbnail"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="full padded-bottom center">
+		<div class="container">
+
+			<!-- Folio pt.2 -->
+			<div class="row">
+				<div class="col-xs-12 padded-bottom">
+					<ul class="folio-list dropshadow">
+						<li><a class ="lightbox" href="images/pic_4.jpg" title="fiori rosa" width="754px" height ="845px"><img src="images/pic_4.jpg" alt="thumbnail"></a></li>
+						<li><a class ="lightbox" href="images/pic_5.jpg" title="strada" width="750px" height ="806px"><img src="images/pic_5.jpg" alt="thumbnail"></a></li>
+						<li><a class ="lightbox" href="images/pic_6.jpg" title="lago" width="540px" height ="540px"><img src="images/pic_6.jpg" alt="thumbnail"></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Quote -->
+			<!-- <div class="row">
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+					<span class="large-accent" style ="color:  #fff;>“</span>
+					<h2>They take time to deeply understand what the product is trying to communicate.</h2>
+                                        <span class="large-accent" style ="color:  #fff;>“</span>
+					<span class="line no-accent"></span>
+					<h3>Johnny Doeson</h3>
+					<h4>Raspberry</h4>
+				</div>
+			</div> -->
+		</div>
+	</section>
+	<section id="viaggia" class="full padded-top center dark" style="position: relative; background: rgba(0, 0, 0, 0.35);">
+		<div id="video-top" class="fullscreen-bg">
+			<video loop="" muted="" autoplay="" class="fullscreen-bg__video">
+			  <source src="./resources/video/inspired.mp4" type="video/mp4">
+			    Sorry, your browser does not support HTML5 video.
+			</video>
+		</div>
+		<div class="container">
+
+			<!-- Intro -->
+			<div class="row">
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+					<h2 itemprop="citation">La vita è un libro, e chi non viaggia legge una pagina sola.</h2>
+                    <h3>Sant'Agostino</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="container padded center" id="iscriviti">
+
+		<!-- Subscribe -->
+		<!-- <div class="row">
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+				<h3>Contattaci</h3>
+				<span class="line"></span>
+				<p><a href="mailto:info@bevoyager.it">info@bevoyager.it</a></p>
+
+				<form id="contactForm" name="contact" method="post" novalidate="novalidate">
+				<fieldset>
+					<label for="name">Nome</label>
+					<input type="text" name="name" id="name" />
+					<label for="email">Email</label>
+			        <input type="email" name="email" id="email" />
+			        <label for="message">Messaggio</label>
+			        <textarea name="message" id="message"></textarea>
+			        <input id="submit" type="submit" name="submit" value="Invia">
+				</fieldset>
+			</form>
+
+			<div id="success">
+				<p>Il tuo messaggio è stato inviato correttamente! Ti risponderemo a breve!</p>
+			</div>
+
+			<div id="error">
+				<p>Qualcosa è andato storto! Aggiorno la pagina e riprova!</p>
+			</div>
+			</div>
+		</div> -->
+
+		<!-- Footer -->
+		<div class="row padded">
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+				<span class="line no-accent"></span>
+				<form
+					id="subscribe-form"
+					action="//bevoyager.us13.list-manage.com/subscribe/post?u=18b0c45b79a9cad7daddad342&amp;id=78bbe6eae9" 
+					method="post"
+					target="_blank">
+					<input type="email" name="EMAIL" onfocus="if(this.value == 'Enter E-mail Address') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Enter E-mail Address'; }" value="Enter E-mail Address" class="text">
+					<input type="submit" value="Iscriviti" name="subscribe" class="submit" id="subscribe">
+					<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_18b0c45b79a9cad7daddad342_78bbe6eae9" tabindex="-1" value=""></div>
+					<div id="subscribe-result"></div>
+				</form>
+				<span class="line"></span>
+				<h3>Contattaci</h3>
+				<a href="mailto:info@bevoyager.it">info@bevoyager.it</a>
+
+				<ul class="social-list padded">
+					<li><a title="Twitter" href="https://twitter.com/bevoyagers">Twitter</a></li>
+					<li><a title="Facebook" href="https://www.facebook.com/bevoyagers">Facebook</a></li>
+					<li><a title="Google" href="https://plus.google.com/u/0/106818786569249123679/posts">Google</a></li>
+				</ul>
+				<p class="copyright">© 2016 All rights reserved.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Begin Pageloader -->
+	<div id="pageloader" class="pageloader-fade pageloader-hide">
+		<!-- Content -->
+		<div class="pageloader-content pageloader-content-hide">
+			<h4>Loading...</h4>
+			<span class="progress"></span>
+		</div><!-- END Content -->
+	</div><!-- END Pageloader -->
+
+
+	<!-- Javascript -->
+	<script src="./resources/js/loader.js"></script>
+	<script src="./resources/js/parallax.js"></script>
+	<script src="./resources/js/plugins.js"></script>
+	<script src="./resources/js/main.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-78051602-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+</html>
+
